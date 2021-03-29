@@ -4,6 +4,7 @@ ifneq ($(TARGET_PRODUCT),qssi)
 RMNET_PERF_DLKM_PLATFORMS_LIST := msmnile
 RMNET_PERF_DLKM_PLATFORMS_LIST += kona
 RMNET_PERF_DLKM_PLATFORMS_LIST += lito
+RMNET_PERF_DLKM_PLATFORMS_LIST += sm6150
 
 ifeq ($(call is-board-platform-in-list, $(RMNET_PERF_DLKM_PLATFORMS_LIST)),true)
 LOCAL_PATH := $(call my-dir)

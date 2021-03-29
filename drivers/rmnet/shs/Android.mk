@@ -2,6 +2,7 @@ ifneq ($(TARGET_PRODUCT),qssi)
 RMNET_SHS_DLKM_PLATFORMS_LIST := msmnile
 RMNET_SHS_DLKM_PLATFORMS_LIST += kona
 RMNET_SHS_DLKM_PLATFORMS_LIST += lito
+RMNET_SHS_DLKM_PLATFORMS_LIST += sm6150
 
 ifeq ($(call is-board-platform-in-list, $(RMNET_SHS_DLKM_PLATFORMS_LIST)),true)
 #Make file to create RMNET_SHS DLKM
